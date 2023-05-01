@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Navbar from "../components/Navbar"
 import HeroImg from '@/components/HeroImg'
 import Courses from '@/components/Courses'
+import Contact from '@/components/Contact'
 
 
 export default function Home() {

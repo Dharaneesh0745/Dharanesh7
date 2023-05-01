@@ -22,6 +22,7 @@ export default function Home() {
       <main>
         <HeroImg></HeroImg>
         <Courses></Courses>
+        <Contact></Contact>
       </main>
 
     </div>

@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from "../components/Navbar"
+import HeroImg from '@/components/HeroImg'
+import Courses from '@/components/Courses'
 
 
 export default function Home() {
@@ -16,6 +18,11 @@ export default function Home() {
       <header>
         <Navbar></Navbar>
       </header>
+
+      <main>
+        <HeroImg></HeroImg>
+        <Courses></Courses>
+      </main>
 
     </div>
   )
